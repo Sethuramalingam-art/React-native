@@ -34,12 +34,17 @@ import {View, Text} from 'react-native'
  style={{fontSize: 24}}
  <Text  style={{fontSize: 24}}></Text>
 
- <View> -> it is used to create a container or view for other components
+ View Component -> it is used to create a container or view for other components
 -> think of it as a box or container that holds other components
 -> it is similar to <div> element functionality like in HTML but with some added functionality specific to mob apps
 <View> -> create layout structures for other components
 -> it has no of props that can be used to control its appearance & behaviour
 
-** <View>-> by default it uses the flex layout **
+** View Component-> by default it uses the flex layout **
 which makes it really easy to control how its child components are laid out within the container
 
+
+RN - have some awesome Touchable components 
+these components are perfect to create
+buttons, links other interactive elements -> so RN dont have the buttons instead of that it have TouchableOpacity 
+ex: create a button component in react native in code base
