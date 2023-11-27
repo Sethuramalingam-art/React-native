@@ -48,3 +48,25 @@ RN - have some awesome Touchable components
 these components are perfect to create
 buttons, links other interactive elements -> so RN dont have the buttons instead of that it have TouchableOpacity 
 ex: create a button component in react native in code base
+
+RN - ActivityIndicator -> fully customizable
+it is used for showing a spinner or loading indicator in app. we can customize the color and size 
+
+RN have important components ->  Flatlist
+Flatlist -> it is like a map to render html list like react -> used for rendering a long list of items that needs to be scrolled efficiently
+it have extra features -> optimized scroll performance  and Item separation 
+
+Flatlist -> for larger list with smooth scrolling 
+map -> smaller list
+
+RN have important components ->  ScrollView 
+It is like a box that can be hold multiple components and views, providing a scrolling container for them. 
+ex: overflow: Scroll in html. Allowing you to easily navigate through a list of items or a large amount of content in our app
+we can make sure that users can easily explore the content making the app more intuitive and user  friendly
+
+RN have important components ->  SafeAreaView
+it provides a safre zone to render your app's content without being covered by the device's hardware features like the notch, home indicator, status bar.
+it make sure that app conent should displayed within visible area making app more accessibale
+
+
+
