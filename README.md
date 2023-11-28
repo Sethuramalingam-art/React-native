@@ -69,4 +69,9 @@ it provides a safre zone to render your app's content without being covered by t
 it make sure that app conent should displayed within visible area making app more accessibale
 
 
+Expo Router brings the best routing concepts from the web to native iOS and Android apps. 
+Every file in the app directory automatically becomes a route in your mobile navigation, making it easier than ever to build, maintain, and scale your project. 
+It's built on top of our powerful React Navigation suite enabling truly native navigation. The entire deep linking system is automatically generated live, so users can share links to any route in your app.
 
+create new reactnative app
+npx create-expo-app@latest -e with-router
