@@ -74,4 +74,9 @@ Every file in the app directory automatically becomes a route in your mobile nav
 It's built on top of our powerful React Navigation suite enabling truly native navigation. The entire deep linking system is automatically generated live, so users can share links to any route in your app.
 
 create new reactnative app
+
 npx create-expo-app@latest -e with-router
+
+npm install expo-font axios react-native-dotenv
+
+npm install -g expo-cli
