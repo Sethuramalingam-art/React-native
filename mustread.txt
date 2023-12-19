@@ -1,0 +1,15 @@
+Create React Native App vs Expo: What are the differences?
+
+Create React Native App and Expo are two popular tools used in mobile app development with React Native. They both aim to simplify the process of building cross-platform mobile applications using React Native. Let's explore the key differences between Create React Native App and Expo.
+
+Configuration and Setup: Create React Native App is a command-line tool that helps set up a new React Native project with minimal configuration. It offers a simple and lightweight approach, giving developers more control over the project setup and dependencies. On the other hand, Expo is a comprehensive development platform that comes with a suite of pre-configured tools and libraries out of the box. It provides a quick and streamlined setup, allowing developers to get started with React Native development without the need to configure multiple dependencies.
+
+Development Workflow: Create React Native App relies on the React Native CLI for building and running the app, making it more suitable for developers who prefer a traditional development workflow. It provides flexibility to add native modules and customize the native code if needed. Expo, on the other hand, offers a managed workflow that abstracts away much of the native development complexities. It allows developers to build and test apps using a web-based development environment, and some features may require using Expo's APIs.
+
+Access to Native Modules: In Create React Native App, developers have direct access to the native code, enabling them to use custom native modules or third-party libraries that might not be available through JavaScript. This gives developers more flexibility and control over the app's capabilities. Expo, on the other hand, comes with a limited set of native modules out of the box. While it provides a wide range of built-in functionalities, developers may face limitations when trying to use certain custom native modules not supported by Expo.
+
+Ejecting: Create React Native App allows developers to "eject" the project, which means moving away from its minimal configuration and exposing the underlying native code. This step is irreversible, but it grants full control over the native modules and build configurations. Expo, on the other hand, doesn't support full ejecting. While it offers the "ExpoKit" option to customize some native modules, developers cannot fully eject and modify every aspect of the native code.
+
+Publishing and Distribution: Expo offers additional benefits for distribution, providing over-the-air (OTA) updates and easy sharing of app builds with stakeholders without going through app stores. Create React Native App requires standard app store deployment for updates and distribution.
+
+In summary, Create React Native App offers more flexibility and control, making it suitable for projects that require extensive customization and native module integration. On the other hand, Expo provides a more streamlined development experience and is an excellent choice for rapidly building and testing apps with a rich set of built-in features and ease of distribution.
