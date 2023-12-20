@@ -82,3 +82,6 @@ npm install expo-font axios react-native-dotenv
 npm install -g expo-cli
 
 The Stack Layout in Expo Router wraps the Native Stack Navigator from React Navigation, not to be confused with the legacy JS Stack Navigator. app. _layout.js. index.js. detail.js.
+
+
+npm install body-parser express mongoose jsonwebtoken nodemailer nodemon cors
