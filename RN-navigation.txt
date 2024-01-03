@@ -1,0 +1,3 @@
+This native-stack navigator uses the native APIs: UINavigationController on iOS and Fragment on Android so that navigation built with createNativeStackNavigator will behave the same and have the same performance characteristics as apps built natively on top of those APIs.
+
+React Navigation also has packages for different kind of navigators such as tabs and drawer. You can use them to implement various patterns in your app.
